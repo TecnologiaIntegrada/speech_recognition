@@ -23,7 +23,7 @@ SpeechRecognition = Versão Brasileira = PT/BR
 
 Library for performing speech recognition, with support for several engines and APIs, online and offline.
 
-Speech recognition engine/API support:
+Speech recognition engine/API suporte:
 
 * `CMU Sphinx <http://cmusphinx.sourceforge.net/wiki/>`__ (works offline)
 * Google Speech Recognition
@@ -39,20 +39,20 @@ Speech recognition engine/API support:
 
 To quickly try it out, run ``python -m speech_recognition`` after installing.
 
-Project links:
+Links do projeto
 
 -  `PyPI <https://pypi.python.org/pypi/SpeechRecognition/>`__
 -  `Source code <https://github.com/Uberi/speech_recognition>`__
 -  `Issue tracker <https://github.com/Uberi/speech_recognition/issues>`__
 
-Library Reference
------------------
+Referências bibliogáficas
+--------------------------
 
 The `library reference <https://github.com/Uberi/speech_recognition/blob/master/reference/library-reference.rst>`__ documents every publicly accessible object in the library. This document is also included under ``reference/library-reference.rst``.
 
 See `Notes on using PocketSphinx <https://github.com/Uberi/speech_recognition/blob/master/reference/pocketsphinx.rst>`__ for information about installing languages, compiling PocketSphinx, and building language packs from online resources. This document is also included under ``reference/pocketsphinx.rst``.
 
-Examples
+Exemplos
 --------
 
 See the ``examples/`` `directory <https://github.com/Uberi/speech_recognition/tree/master/examples>`__ in the repository root for usage examples:
@@ -65,7 +65,7 @@ See the ``examples/`` `directory <https://github.com/Uberi/speech_recognition/tr
 -  `Listening to a microphone in the background <https://github.com/Uberi/speech_recognition/blob/master/examples/background_listening.py>`__
 -  `Various other useful recognizer features <https://github.com/Uberi/speech_recognition/blob/master/examples/special_recognizer_features.py>`__
 
-Installing
+Instalação
 ----------
 
 First, make sure you have all the requirements listed in the "Requirements" section. 
@@ -76,7 +76,7 @@ Otherwise, download the source distribution from `PyPI <https://pypi.python.org/
 
 In the folder, run ``python setup.py install``.
 
-Requirements
+Requisitos
 ------------
 
 To use all of the functionality of the library, you should have:
@@ -156,8 +156,8 @@ This is because monotonic time is necessary to handle cache expiry properly in t
 
 To install, use `Pip <https://pip.readthedocs.org/>`__: execute ``pip install monotonic`` in a terminal.
 
-Troubleshooting
----------------
+Troubleshooting / Debug
+-----------------------
 
 The recognizer tries to recognize speech even when I'm not speaking, or after I'm done speaking.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -262,10 +262,10 @@ Installing `FLAC for OS X <https://xiph.org/flac/download.html>`__ directly from
 
 Installing FLAC using `Homebrew <http://brew.sh/>`__ ensures that the search path is correctly updated. First, ensure you have Homebrew, then run ``brew install flac`` to install the necessary files.
 
-Developing
-----------
+Desenvolvimento
+-----------------
 
-To hack on this library, first make sure you have all the requirements listed in the "Requirements" section.
+Para utilizar esta biblioteca, primeiro certifique-se de ter todos os requisitos listados na seção "Requisitos". 
 
 -  Most of the library code lives in ``speech_recognition/__init__.py``.
 -  Examples live under the ``examples/`` `directory <https://github.com/Uberi/speech_recognition/tree/master/examples>`__, and the demo script lives in ``speech_recognition/__main__.py``.
@@ -279,7 +279,7 @@ Before a release, the version number is bumped in ``README.rst`` and ``speech_re
 
 Releases are done by running ``make-release.sh VERSION_GOES_HERE`` to build the Python source packages, sign them, and upload them to PyPI.
 
-Testing
+Testes
 ~~~~~~~
 
 To run all the tests:
@@ -339,7 +339,9 @@ Authors
 -------
 
 ::
-
+    Features [20210320 - TORONTO CANADA - PT/BR LANGUAGE APLIED]
+::
+    CODIFICAÇÃO INICIAL ORIGINADA POR:
     Uberi <me@anthonyz.ca> (Anthony Zhang)
     bobsayshilol
     arvindch <achembarpu@gmail.com> (Arvind Chembarpu)
