@@ -1,4 +1,4 @@
-SpeechRecognition = Versão Brasileira
+SpeechRecognition = Versão Brasileira = PT/BR
 =================
 
 .. image:: https://img.shields.io/pypi/v/SpeechRecognition.svg
